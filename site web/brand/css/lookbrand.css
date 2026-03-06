@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+/* mega menu */
+
+.dropc{
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+    height: 100%;
+    left: 0;
+    top: 6%;
+}
+
+.cnt{
+    background-color: black;
+    left: 0;
+    width: 100px;
+}
+
+.drop:hover{
+    transition: background-color .3s;
+    background-color: #C4C4C4;
+}
+
+.drop:hover .dropc{
+  display: block;
+}
+
+.col>div:hover{
+    transition: background-color .3s;
+    background-color: darkgrey;
+}
+
+.col>div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 100px 100px;
+    background-color: black;
+    position: sticky;
+}
+
+.cnt>div{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+/* sous bandeau */
+
+.dropc2{
+    display: none;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    left: 100%;
+    top: 0%;
+}
+
+.drop2:hover .dropc2{
+  display: block;
+}
+
+.col2>div:hover{
+    transition: background-color .3s;
+    background-color: darkgray;
+}
+
+.col2{
+    display: grid;
+    grid-template-rows: 85px 85px 85px;
+    grid-template-columns: 135px;
+}
+
+/* texte */
